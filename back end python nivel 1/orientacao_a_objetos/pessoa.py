@@ -1,3 +1,5 @@
+from conta_bancaria import ContaBancaria
+
 class Pessoa:
     def __init__(self, nome, idade, profissao):
 
@@ -21,9 +23,11 @@ class Pessoa:
 
 
 pessoa1 = Pessoa("victor teles farias", 25, "engenheiro de dados")
-
+pessoa2 = ContaBancaria("victor teles farias", 4568.45)
+pessoa2.ativar_conta
 print(pessoa1)
 print(pessoa1.saudacoes)
+print(pessoa2)
         
 
         
